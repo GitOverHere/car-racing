@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is Fail?</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h3 class="content">Did it fail?</h3>
+<script>
+
+var token = new URL(window.location).hash.split('&').filter(function(el) { if(el.match('access_token') !== null) return true; })[0].split('=')[1];
+
+alert(token);
+
+
+	$.ajax({
+					method: 'post',
+					url: "add_twitch.php",	
+					data: {
+            'token' : token
+					},
+					
+					success: function(data, textStatus,xhr){
+						
+						if(xhr.status==100){
+							document.querySelector(".content").innerHTML="Successfully validated! You can now exit this popup window.";
+						}
+						else {
+							document.querySelector(".content").innerHTML="COuld not validate! Did you deny permission? If so, close this window to authorize again.";
+						}
+						
+					}
+		
+				});
+	
+</script>
+
+</body>
+</html>
+
+
+</html>

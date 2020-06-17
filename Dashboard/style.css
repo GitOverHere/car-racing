@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+
+html, body {
+  overflow-y: scroll;
+  padding: 0;
+  margin:0;
+   margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color:white;
+}
+
+a {
+	cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+border: 1px solid white;
+background: transparent;
+padding: 5px;
+width: 50%;
+color: #5D6D7E;
+float: center;
+border: 3px solid #5D6D7E;
+
+}
+input[type=text]:focus{
+border: 1px solid #E7552C;
+background: transparent;
+-webkit-transition: .3s ease;
+ transition: .3s ease;
+  outline: none;
+  padding: 10px;
+  color:  #5D6D7E;
+
+}
+
+
+
+
+
+
+
+
+.website-container{
+	width: 100%;
+
+
+}
+
+.sidepanel {
+width: 20%;
+height: 100%;
+background-color: #5D6D7E;
+position: fixed;
+
+}
+
+.topcolor {
+background-color: #E7552C;
+width: 100%;
+height: 5px;
+position: fixed;
+}
+
+
+.v-nav a {
+	display:block;
+	color:white;
+	padding:15px;
+	width: auto;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.v-nav a.active {
+	color: white;
+	background-color: #E7552C;
+}
+
+.v-nav a:hover {
+	color: #E7552C;
+	-webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.v-nav {
+
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: #5D6D7E;
+
+            }
+
+.code {
+  float: center;
+  width: 100%;
+
+
+}
+
+.html .css .javascript {
+width: 33%;
+height: 100px;
+float: left;
+
+}
+
+
+
+
+.settings {
+	background-color:  #FFFFFF;
+	margin: 0 auto;
+text-align: center;
+color: white;
+float: center;
+width: 50%;
+	text-align: center-rtl;
+}
+
+
+.profile {
+	position: absolute;
+    bottom: 0;
+	color: white;
+	background-color: #4a5663;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+
+}
+.content{
+	text-align: center;
+}
+
+.content-container{
+	float: right;
+	width: 80%;
+	height: 100%;
+
+}
+
+
+.logo{
+	position: center;
+}
+
+.s-nav{
+	color: white;
+	background-color: #5D6D7E;
+
+}
+
+.update{
+	text-align: center;
+	border: 3px solid #E7552C;
+	color: #E7552C;
+	width: 20px;
+
+}
+
+.update:hover {
+	background-color: #E7552C;
+	color: white;
+	transition: 0.5s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.standard-button{
+	color: #E7552C;
+	border: 3px solid #E7552C;
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	align-content: center;
+	padding: 10px 10px 10px 10px;
+
+}
+
+.standard-button:hover{
+	background-color:  #E7552C;
+	color: white;
+	transition: 0.5s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.graph-container{
+	align-content: center;
+	text-align: center;
+	display: grid;
+}
+
+.live {
+	text-align: center;
+	width: 100%;
+	display: inline-block
+}
+
+.grid {
+  display: grid;
+  margin: 0 auto;
+  background-color: #CDCDCD;
+width: 100%;
+  height: 100%;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.item {
+  width:  200px;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  
+}
+
+
+.tool-menu{
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+}
+
+.livestream-tools {
+	width: 100%;
+	margin-top: 5vh;
+	color: white;
+}
+
+.livestream-tools div{
+	
+
+	
+}
+
+
+.livestream-tools p{
+	width: 90%;
+}
+
+.description {
+	width: 69%;
+	display: inline-block;
+	float: right;
+}
+
+.b-logo {
+width: 100px;
+height: 100px;
+
+	
+}
+
+.img-div {
+	width:30%;
+	display: inline-block;
+	float: left;
+}
+
+#twitch-tools {
+	background-color: #6441A5;
+	float:left:
+}
+
+#youtube-tools {
+	background-color: #c4302b;
+	float: right;
+}
+
+#twitter-tools {
+	background-color: #00acee;
+	float: left;
+}
+
+#mixer-tools {
+	background-color:  #02204D;
+	float: right;
+}
+
+#discord-tools {
+	background-color:  #7289da;
+	float; left;
+	
+}
+
+#our-tools {
+	background-color: #E7552C;
+	float; right;
+}
+
+
+
+
+.s-nav a{
+	padding-right: 5px;
+}
+
+.s-nav a:hover{
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	color: #E7552C;
+	padding-right: 10px;
+}
+
+
+
+.settings-form-container{
+	text-align: center;
+	float: center;
+	background-color: white;
+	color: black;
+}
+
+.confirm_deletion{
+	color: #ce181e;
+	border: 3px solid #ce181e;
+	padding: 10px 10px 10px 10px;
+}
+
+.confirm_deletion:hover {
+	color: white;
+	background-color:  #ce181e;
+	transition: 0.3s ease all;
+}
+
+.confirm_deletion:active {
+	color: white;
+	background-color:  #a01014;
+	transition: 0.3s ease all;
+  border-color:  #a01014;
+}

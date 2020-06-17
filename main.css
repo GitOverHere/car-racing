@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+
+}
+#color-bar{
+background-color: #E7552C;
+height:5px;
+width: 100%;	
+}
+
+a{
+cursor: pointer;
+}	
+
+
+
+
+
+.alert{
+	background-color: #E7552C;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 15px;
+`	visibility: hidden;
+}
+
+.header{
+position: fixed;
+height: auto;
+width: 100%;	
+background-color: white;
+float: right;
+	
+}
+.header a{	
+color: grey;
+text-decoration: none;
+cursor: pointer;
+padding-left: 1em;
+}
+.header a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	cursor: pointer;
+	
+}	
+.Search{
+	width: 25%;
+	padding:10px;
+	float: right;
+}
+.Search input{
+width: 80%;	
+height: auto;
+}	
+.Search button{
+background-color: #E7552C;	
+float: right;
+color: white;
+border: none;
+}	
+.header_links {
+	padding: 15px 15px;
+	float: right;
+}	
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url("http://getwallpapers.com/wallpaper/full/d/e/5/295415.jpg");
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+
+
+}
+.content {
+  max-width: 800px;
+  margin:  auto;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+.content h1 {
+            font-family: 'Titillium Web', sans-serif;
+            color: white;
+            text-shadow: 0px 0px 10px #000;
+            font-size: 400%;
+}
+.btn {
+    border-radius: 3px;
+font-family: 'Titillium Web', sans-serif;
+color: white;
+border: solid #E7552C 2px;
+font-size: 3vh;
+padding: 2vh 2vh;
+text-transform: uppercase;
+text-decoration: none;
+margin: 4px 2px;
+border-radius: 5px;
+font-family: 'Roboto' ,sans-serif;
+}
+a.btn:hover {
+	border: solid #E7552C  3px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #E7552C;
+  cursor: pointer;
+}
+
+.orange-btn {
+border-radius: 3px;
+font-family: 'Titillium Web', sans-serif;
+color: white;
+background-color: #E7552C;
+padding: 10px 10px;
+text-transform: uppercase;
+text-decoration: none;
+margin: 4px 2px;
+border-radius: 5px;
+font-size: 2vh;
+padding: 1.5vh;
+}
+
+.orange-btn:hover {
+background-color: #b84323;
+-webkit-transition: .3s ease;
+  transition: .3s ease;
+ -moz-transition: .3s ease;
+}
+
+
+.white-btn {
+border-radius: 3px;
+font-family: 'Titillium Web', sans-serif;
+color: black;
+background-color: white;
+padding: 1.5vh;
+text-transform: uppercase;
+text-decoration: none;
+margin: 4px 2px;
+border-radius: 5px;
+font-size: 2vh;
+padding: 1.5vh;
+}
+
+.white-btn:hover {
+background-color: #f2eeed;
+-webkit-transition: .3s ease;
+  transition: .3s ease;
+ -moz-transition: .3s ease;
+}
+
+.description{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10vh;
+}
+
+
+
+
+.about h1 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  color: #E7552C;
+  font-size: 300%;
+}
+.about p {
+	font-size: 135%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.steps-container {
+	padding-top: 10vh;
+	align-content: center;
+	display: flex;
+	margin: 0 auto;
+	height: 100%;
+	width: 90%;
+	justify-content: space-between;
+	vertical-align: center;
+}
+
+.steps h1{
+	font-family: 'Titillium Web', sans-serif;
+  color: #E7552C;
+  font-size: 7vh;
+}	
+
+.step_text h1{
+font-family: 'Lobster', cursive;
+  color: #E7552C;
+    text-align: left;
+	font-size: 5vh;
+}
+
+
+
+.steps p{
+    font-family: 'Roboto' ,sans-serif;
+	font-size: 2vh;
+}
+
+.step_img {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+
+.step_img img{
+margin-top: 8vh;
+vertical-align: middle;
+width: 100px;
+height: 100px;	
+	
+}
+
+.step_text{
+width: 70%;
+float: right;
+}
+
+.step-panel{
+	width: 30%;
+	background-color: white;
+	float: center;
+	-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  padding: 1vw;
+
+}
+
+.title {
+	margin-top: 6vh;
+	
+	
+}
+
+
+.steps {
+  background-image: url("https://www-tc.pbs.org/wgbh/nova/next/wp-content/uploads/2017/06/quantum-entanglement_2048x1152.jpg");
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  background-size: cover;
+  background-color: #F0F0F0;
+}
+
+
+
+
+
+.benefits-container{
+	width: 100%;
+	height: auto;
+	min-width: 300px;
+	overflow:hidden;
+	word-wrap: break-word;
+	margin-bottom: 3vw;
+}
+
+.benefits-container h1{
+	color: #E7552C;
+	font-size: 30px;
+	text-align: center;
+	width: 80%;
+}
+
+
+.benefit1{
+	margin: 0 auto;
+	padding: 2vh;
+	overflow:hidden;
+	width: 25%;
+	height: auto%;
+	float: left;
+	margin: 50px;
+	border: solid #E7552C 3px;
+		-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.benefit2{
+	padding: 2vh;
+	overflow:hidden;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin: 50px;
+	border: solid #E7552C 3px;
+		-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.benefit3{
+	padding: 1vh;
+	overflow:hidden;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin: 50px;
+	border: solid #E7552C 3px;
+		-moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.benefit-img {
+	margin: 0 auto;
+	width: 25%;
+	height: 100%;
+	float: left
+	 
+}
+
+.benefit-img img {
+	margin-left: 2vw;
+	margin: 0 auto;
+	margin-top: 7vh;
+	width: 10vh;
+	height: 10vh;
+	
+}	
+
+.benefit-content {
+	width: 60%;
+	height: 100%;
+	float: right;
+	
+}
+
+#whyus{
+	color: #E7552C;
+	font-size: 5vh;
+	text-align: left;
+}
+.our-users {
+	background-color:  #E7552C;
+	color: white;
+	width:100%;
+	height:30%;
+}
+
+.users-panel {
+	margin: 0 auto;
+	background-color: blue;
+	width: 80%;
+	
+}
+
+.users-panel div {
+	float: left;
+	
+}
+
+.user-img {
+	width: 5vh;
+	height: 5vh;
+	
+}
+
+
+.cmon {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+		background-image: url("https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+		width: 100%;
+		height: 50%;
+		overflow: hidden;
+		font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.footer {
+	background-color: #13232F;
+	width: 100%;
+	color:white;
+	text-decoration: none;
+	height: 30%;
+}
+
+.footer button{
+	align-content: center;
+	background-color: none;
+	color: white;
+	width: 30%;
+	text-decoration: none;
+}
+.foot{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.col1{
+width:40%;
+float:left;
+text-decoration: none;
+font-size: 20px;
+}
+
+.col1 a{
+	text-decoration: none;
+}
+
+
+
+
+.col2{
+width:30%;
+float:left;
+font-size: 20px;
+
+}
+
+.col2 a {
+	text-decoration: none;
+color: white;
+}
+
+
+
+
+.col3{
+width:30%;
+float:left;
+font-size: 20px;
+
+}
+
+.col3 a{
+text-decoration: none;
+color: white;
+}
+
+.col1 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+
+.col2 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+.col3 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+#footer-logo {
+	height: 10vh;
+	width: 30vh;
+	
+}
+
+.social_media{
+padding: 3px;
+}	
+		

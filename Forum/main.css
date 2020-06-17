@@ -1,0 +1,145 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	
+	
+}
+
+body {
+	background-image: url("img/background.jpg");
+	background-size: cover;
+}
+
+
+.content{
+	align-content: center;
+	width: 80%;
+	
+}
+
+.general {
+	height: 30%;
+	width: 25%;
+	float: left;
+	
+}
+
+
+
+.features {
+	height: 30%;
+	width: 25%;
+	float: right;
+	
+}
+
+
+
+.suggestions {
+	height: 30%;
+	width: 25%;
+	float: left;
+}
+
+
+.help {
+	height: 30%;
+	width: 25%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	background-color: #13232F;
+	width: 100%;
+	color:white;
+	text-decoration: none;
+	height: 35%;
+}
+
+.footer button{
+	align-content: center;
+	background-color: none;
+	color: white;
+	width: 30%;
+	text-decoration: none;
+}
+
+.col1{
+width:33%;
+float:left;
+text-decoration: none;
+}
+
+.col1 a{
+	text-decoration: none;
+	font-size: 75%;
+}
+
+
+
+
+.col2{
+width:33%;
+float:left;
+font-size: 25px;
+
+}
+
+.col2 a {
+	text-decoration: none;
+color: white;
+}
+
+
+
+
+.col3{
+width:33%;
+float:left;
+font-size: 25px;
+
+}
+
+.col3 a{
+text-decoration: none;
+color: white;
+}
+
+.col1 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+
+.col2 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+.col3 a:hover{
+	color: #E7552C;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+
+.social_media{
+padding: 5px;
+}

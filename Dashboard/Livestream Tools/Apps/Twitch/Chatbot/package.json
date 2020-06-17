@@ -1,0 +1,11 @@
+{
+  "name": "conversify",
+  "version": "1.0.0",
+  "description": "A chatbot that can preform a variety of useful commands. You can talk and you can use AIML files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SupportLabs Incorporated",
+  "license": "MIT"
+}
