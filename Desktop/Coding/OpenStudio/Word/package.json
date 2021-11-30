@@ -1,0 +1,26 @@
+{
+  "name": "openstudio-word",
+  "version": "1.0.0",
+  "description": "\u0016This is the equivalent of Microsoft Word. This program will allow you to compose various documents and is full of features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node background.js"
+  },
+  "author": "GitOverHere",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.1.1",
+    "nightmare": "^3.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "office",
+    "word",
+    "writing",
+    "word processing"
+  ]
+}
